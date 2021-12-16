@@ -42,8 +42,10 @@ a {
 
 /* intestazione */
 
-.container {
-    width: 100%;
+ .sticky {
+     position: sticky;
+     top: 0;
+     z-index: 99;
  }
 
 /* logo */
@@ -64,13 +66,17 @@ a {
 .row-nav .nav-list {
     list-style-type: none;
     font-size: 14px;
-    color: #b7b7b7;
     font-weight: 700;
+    color: #a9a9a9;
 }
 
 .row-nav .nav-list li{
     float: left;
     padding-right: 10px;
+}
+
+.row-nav .nav-list li:hover {
+    color: #000;
 }
 
 /* section top banner */
@@ -139,11 +145,6 @@ a {
     padding-top: 20px;
 }
 
-.row-top > h1, h5{
-    padding-bottom: 5px;
-    
-}
-
 .row-top h5 {
     font-size: 16px;
     color: #b7b7b7;
@@ -158,7 +159,7 @@ a {
 }
 
 .col3.left, .col3.right {
-    width: calc(100% - 80%)
+    width: 20%;
 }
 
 .col3.middle {
@@ -172,7 +173,7 @@ a {
 /* col3 row top */
 
 .col3 .col3-row-top {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     width: 100%;
     height: 200px;
     position: relative;
@@ -201,7 +202,6 @@ a {
 /* footer */
 
 .container-footer {
-    width: 100%;
     text-align: center;
     line-height: 70px;
     font-size: 14px;
@@ -211,29 +211,24 @@ a {
 
 .heart {
     color: #ff0000;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-/* debug intestazione*/
+/* debug */
 
 .debug .container {
+    width: 100%;
     background-color: #e579e6;
-} */
-
-/* debug section top */
+}
 
 .debug .section-top {
     background-color: #e1d67a;
 }
 
-/* debug section bottom */
-
 .debug .section-bottom {
     min-height: 670px;
     background-color: #0086ff;
 }
-
-/* debug section bottom inside */
 
 .debug .row-top {
     background-color: #abcfe7;
@@ -243,9 +238,8 @@ a {
     background-color: #abcfe7;
 }
 
-/* debug footer */
-
 .debug .container-footer {
+    width: 100%;
     min-height: 70px;
     background-color: #8801fe;    
 }
