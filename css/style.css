@@ -84,6 +84,13 @@ a {
     position: relative;
 }
 
+/* banner text */
+
+.section-top .banner-title {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
 /* section bottom */
 
 .section-bottom {
