@@ -125,6 +125,22 @@ a {
     min-height: 670px;
 }
 
+/* section bottom row top */
+
+.row-top h1 {
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.row-top > h1, h5{
+    padding-bottom: 5px;
+
+}
+
+.row-top h5 {
+    font-size: 16px;
+    color: #c6c6c6;
+}
 
 /* section bottom inside */
 
@@ -160,15 +176,15 @@ a {
 
 /* debug intestazione*/
 
-/* .debug .container {
+.debug .container {
     background-color: #e579e6;
 } */
 
 /* debug section top */
 
-/* .debug .section-top {
+.debug .section-top {
     background-color: #e1d67a;
-} */
+}
 
 /* debug section bottom */
 
