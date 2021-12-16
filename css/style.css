@@ -73,18 +73,15 @@ a {
     padding-right: 10px;
 }
 
-/* section top */
+/* section top banner */
 
-.section-top {
+.section-top.banner {
     width: 100%;
     min-height: 500px;
-}
-
-.section-top .banner {
-    height: 500px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 /* section bottom */
