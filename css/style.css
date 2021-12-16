@@ -44,7 +44,6 @@ a {
 
 .container {
     width: 100%;
-    min-height: 140px;
  }
 
 /* logo */
@@ -123,7 +122,6 @@ a {
 
 .section-bottom {
     width: 100%;
-    min-height: 670px;
 }
 
 
@@ -143,7 +141,7 @@ a {
 
 .row-top > h1, h5{
     padding-bottom: 5px;
-
+    
 }
 
 .row-top h5 {
@@ -155,7 +153,6 @@ a {
 /* layout colonne  */
 
 .col3 {
-    min-height: 540px;
     margin: 25px 20px 20px 0;
     float: left;
 }
@@ -201,12 +198,20 @@ a {
     position: relative;
 }
 
-
 /* footer */
 
 .container-footer {
     width: 100%;
-    min-height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 700;
+}
+
+.heart {
+    color: #ff0000;
+    font-size: 18px;
 }
 
 /* debug intestazione*/
@@ -224,6 +229,7 @@ a {
 /* debug section bottom */
 
 .debug .section-bottom {
+    min-height: 670px;
     background-color: #0086ff;
 }
 
@@ -240,5 +246,6 @@ a {
 /* debug footer */
 
 .debug .container-footer {
+    min-height: 70px;
     background-color: #8801fe;    
 }
