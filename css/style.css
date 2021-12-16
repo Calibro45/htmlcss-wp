@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 25px 20px;
+}
+
+section, header {
+    padding-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.layout {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* intestazione */
+
+.container {
+    width: 100%;
+    min-height: 140px;
+}
+
+/* section top */
+
+.section-top {
+    width: 100%;
+    min-height: 500px;
+}
+
+/* section bottom */
+
+.section-bottom {
+    width: 100%;
+    min-height: 670px;
+}
+
+/* section bottom inside */
+
+.row-top {
+    width: 100%;
+    min-height: 85px;
+}
+
+.col3 {
+    min-height: 540px;
+    margin: 25px 20px 20px 0;
+    float: left;
+}
+
+.col3.left, .col3.right {
+    width: calc(100% - 80%)
+}
+
+.col3.middle {
+    width: calc(100% - 40% - 40px);
+}
+
+.col3.right {
+    margin-right: 0;
+}
+
+/* footer */
+
+.container-footer {
+    width: 100%;
+    min-height: 70px;
+}
+
+/* debug intestazione*/
+
+.debug .container {
+    background-color: #e579e6;
+}
+
+/* debug section top */
+
+.debug .section-top {
+    background-color: #e1d67a;
+}
+
+/* debug section bottom */
+
+.debug .section-bottom {
+    background-color: #0086ff;
+}
+
+/* debug section bottom inside */
+
+.debug .row-top {
+    background-color: #abcfe7;
+}
+
+.debug .col3 {
+    background-color: #abcfe7;
+}
+
+/* debug footer */
+
+.debug .container-footer {
+    background-color: #8801fe;    
+}
