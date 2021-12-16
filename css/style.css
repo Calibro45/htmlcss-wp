@@ -80,12 +80,20 @@ a {
     min-height: 500px;
 }
 
+.section-top .banner {
+    height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /* section bottom */
 
 .section-bottom {
     width: 100%;
     min-height: 670px;
 }
+
 
 /* section bottom inside */
 
@@ -127,9 +135,9 @@ a {
 
 /* debug section top */
 
-.debug .section-top {
+/* .debug .section-top {
     background-color: #e1d67a;
-}
+} */
 
 /* debug section bottom */
 
